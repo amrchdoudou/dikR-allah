@@ -1,0 +1,60 @@
+import { Dhikr } from '../types';
+
+export const INITIAL_ADHKAR: Dhikr[] = [
+  {
+    id: 'subhanallah',
+    arabic: 'سُبْحَانَ اللهِ',
+    transliteration: 'Subḥān Allāh',
+    translation: 'Glory be to Allah',
+    defaultTarget: 33,
+    category: 'tasbih',
+  },
+  {
+    id: 'alhamdulillah',
+    arabic: 'الْحَمْدُ لِلَّهِ',
+    transliteration: 'Al-ḥamdu lillāh',
+    translation: 'Praise be to Allah',
+    defaultTarget: 33,
+    category: 'tasbih',
+  },
+  {
+    id: 'allahuakbar',
+    arabic: 'اللهُ أَكْبَرُ',
+    transliteration: 'Allāhu Akbar',
+    translation: 'Allah is the Greatest',
+    defaultTarget: 34,
+    category: 'tasbih',
+  },
+  {
+    id: 'lailahaillallah',
+    arabic: 'لَا إِلٰهَ إِلَّا اللهُ',
+    transliteration: 'Lā ilāha illā Allāh',
+    translation: 'There is no deity worthy of worship except Allah',
+    defaultTarget: 100,
+    category: 'daily',
+  },
+  {
+    id: 'astaghfirullah',
+    arabic: 'أَسْتَغْفِرُ اللهَ',
+    transliteration: 'Astaghfiru Allāh',
+    translation: 'I seek forgiveness from Allah',
+    defaultTarget: 100,
+    category: 'forgiveness',
+  },
+  {
+    id: 'salawat',
+    arabic: 'اللَّهُمَّ صَلِّ وَسَلِّمْ عَلَى نَبِيِّنَا مُحَمَّدٍ',
+    transliteration: "Allāhumma ṣalli wa sallim 'alā Nabiyyinā Muḥammad",
+    translation: 'O Allah, send blessings and peace upon our Prophet Muhammad',
+    defaultTarget: 10,
+    category: 'praise',
+  },
+  {
+    id: 'hasbiyallah',
+    arabic: 'حَسْبِيَ اللهُ',
+    transliteration: 'Ḥasbiya Allāh',
+    translation: 'Allah is sufficient for me',
+    defaultTarget: 7,
+    category: 'daily',
+  },
+];

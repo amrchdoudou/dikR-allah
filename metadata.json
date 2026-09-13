@@ -1,0 +1,6 @@
+{
+  "name": "DhikrFlow",
+  "description": "Tasbih & Dhikr counter with intelligent rhythm detection, custom sessions, and calm haptic audio feedback.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

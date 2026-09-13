@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="bgGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#181a24" />
+      <stop offset="100%" stop-color="#08090d" />
+    </radialGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a" />
+      <stop offset="35%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#b45309" />
+    </linearGradient>
+    <radialGradient id="glowGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad)" />
+  <circle cx="256" cy="256" r="190" fill="url(#glowGrad)" />
+  <!-- Tasbih concentric ring with rhythmic beads -->
+  <circle cx="256" cy="256" r="148" fill="none" stroke="url(#goldGrad)" stroke-width="3.5" opacity="0.35" stroke-dasharray="6 8" />
+  <circle cx="256" cy="256" r="118" fill="none" stroke="url(#goldGrad)" stroke-width="2" opacity="0.2" />
+  
+  <!-- Central geometric floral motif -->
+  <g transform="translate(256, 256)" stroke="url(#goldGrad)" stroke-width="3" fill="none">
+    <!-- 8 petal geometry -->
+    <path d="M 0 -76 C 24 -46 24 -16 0 0 C -24 -16 -24 -46 0 -76 Z" fill="url(#goldGrad)" fill-opacity="0.12" />
+    <path d="M 0 76 C 24 46 24 16 0 0 C -24 16 -24 46 0 76 Z" fill="url(#goldGrad)" fill-opacity="0.12" />
+    <path d="M -76 0 C -46 24 -16 24 0 0 C -16 -24 -46 -24 -76 0 Z" fill="url(#goldGrad)" fill-opacity="0.12" />
+    <path d="M 76 0 C 46 24 16 24 0 0 C 16 -24 46 -24 76 0 Z" fill="url(#goldGrad)" fill-opacity="0.12" />
+    
+    <path d="M -54 -54 C -20 -44 -12 -22 0 0 C -22 -12 -44 -20 -54 -54 Z" fill="url(#goldGrad)" fill-opacity="0.08" />
+    <path d="M 54 -54 C 20 -44 12 -22 0 0 C 22 -12 44 -20 54 -54 Z" fill="url(#goldGrad)" fill-opacity="0.08" />
+    <path d="M -54 54 C -20 44 -12 22 0 0 C -22 12 -44 20 -54 54 Z" fill="url(#goldGrad)" fill-opacity="0.08" />
+    <path d="M 54 54 C 20 44 12 22 0 0 C 22 12 44 20 54 54 Z" fill="url(#goldGrad)" fill-opacity="0.08" />
+
+    <!-- Center pearl / bead -->
+    <circle cx="0" cy="0" r="14" fill="url(#goldGrad)" />
+    <circle cx="0" cy="0" r="24" stroke="url(#goldGrad)" stroke-width="2" opacity="0.6" />
+  </g>
+
+  <!-- Surrounding rhythmic Tasbih beads -->
+  <g transform="translate(256, 256)" fill="url(#goldGrad)">
+    <!-- 12 orbiting beads -->
+    <circle cx="0" cy="-148" r="7.5" />
+    <circle cx="74" cy="-128" r="6" />
+    <circle cx="128" cy="-74" r="6" />
+    <circle cx="148" cy="0" r="8" />
+    <circle cx="128" cy="74" r="6" />
+    <circle cx="74" cy="128" r="6" />
+    <circle cx="0" cy="148" r="7.5" />
+    <circle cx="-74" cy="128" r="6" />
+    <circle cx="-128" cy="74" r="6" />
+    <circle cx="-148" cy="0" r="8" />
+    <circle cx="-128" cy="-74" r="6" />
+    <circle cx="-74" cy="-128" r="6" />
+  </g>
+</svg>
